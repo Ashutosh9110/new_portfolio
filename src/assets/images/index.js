@@ -1,16 +1,13 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
 import homepage from './homepage.png'
+import analyst from './analyst.png'
+import tester from './tester.png'
+import managementtrainee from './managementtrainee.png'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    homepage
-    
+    homepage,
+    managementtrainee,
+    analyst,
+    tester
 }

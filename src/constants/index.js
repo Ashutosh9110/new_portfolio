@@ -1,4 +1,5 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { managementtrainee, analyst, tester } from "../assets/images";
+
 import {
     car,
     contact,
@@ -131,7 +132,7 @@ export const experiences = [
     {
         title: "EQUITY ANALYST",
         company_name: "STOCNERVE",
-        icon: starbucks,
+        icon: analyst,
         iconBg: "#accbe1",
         date: "August 2023",
         points: [
@@ -144,7 +145,7 @@ export const experiences = [
     {
         title: "BETA TESTER",
         company_name: "BOWLED.IO",
-        icon: tesla,
+        icon: tester,
         iconBg: "#fbc3bc",
         date: "September 2023",
         points: [
@@ -156,7 +157,7 @@ export const experiences = [
     {
         title: "Management Trainee",
         company_name: "Genpact India",
-        icon: shopify,
+        icon: managementtrainee,
         iconBg: "#b7e4c7",
         date: "Feb 2015 - May 2021",
         points: [
@@ -193,7 +194,14 @@ export const projects = [
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Food-Recipe-App',
+        name: 'Zomato Landing Page',
+        description: 'A replica of the Zomato landing page, showcasing various restaurants and food options. This project focuses on the front-end implementation using HTML and CSS for styling.',
+        link: 'https://ashutosh9110.github.io/zomato_landing_page/',
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Food Recipe App',
         description: 'A simple MERN stack Recipe application that displays different delicious recipes added by the users. It showcases a variety of recipes along with their descriptions, ingredients, and time it took to prepare the dish. Following these recipes will make you the Gordon Ramsay of your household. You just need to follow the instructions carefully and puff... A MAGNIFICIENT DISH IS READY TO GET SERVED.',
         link: 'https://food-recipee-app-beta.vercel.app/',
     },
@@ -203,13 +211,6 @@ export const projects = [
         name: 'Pokémon React App',
         description: 'Explore your favourite Pokémon and discover their amazing abilities! Compare strengths to see which Pokémon reigns supreme.',
         link: 'https://pokemon-app-one-blush.vercel.app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-time Human Pose Estimation in your browser',
-        description: 'With PoseNet running on TensorFlow.js anyone with a decent webcam-equipped desktop or phone can experience this technology right from within a web browser.',
-        link: "https://ashutosh9110.github.io/Real-time-Human-Pose-Estimation-in-your-browser/",
     },
 
 ];
